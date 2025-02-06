@@ -7,8 +7,8 @@ const ChatComponent = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       const coxwaveChatSdk = new CoxwaveChatSdk({
-        clientUrl: "https://dev-cami.coxwave.link",
-        apiKey: "25bd8a7d-b854-4a8e-95db-08383733efd3",
+        clientUrl: process.env.NEXT_PUBLIC_COXWAVE_CLIENT_URL ?? "",
+        apiKey: process.env.NEXT_PUBLIC_COXWAVE_API_KEY ?? "",
       });
 
       coxwaveChatSdk.renderChat();
