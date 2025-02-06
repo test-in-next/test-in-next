@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "coxwave-chat-sdk": "^1.0.5",
+    "coxwave-chat-sdk": "^1.0.6",
     "next": "14.2.23",
     "react": "^18",
     "react-dom": "^18"

@@ -683,10 +683,10 @@ concat-map@0.0.1:
   resolved "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
-coxwave-chat-sdk@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.npmjs.org/coxwave-chat-sdk/-/coxwave-chat-sdk-1.0.5.tgz"
-  integrity sha512-CT2s3N8j+HyXELibGodb5Fwi6E7z02QigOJYmS4N/dFK5j56UE8019/s4U007JMixWx82TT6meXB1yQso89SXQ==
+coxwave-chat-sdk@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.npmjs.org/coxwave-chat-sdk/-/coxwave-chat-sdk-1.0.6.tgz"
+  integrity sha512-DJgMYSR11d8pr2v30iWW71g0aOjC9bR1s38h9OHu/TBVSqBAVsna0zPW5V0k6CAo5IPeq/Lll+2kwq5MZ79xSg==
   dependencies:
     "@tanstack/react-query" "^5.64.2"
     "@tanstack/react-query-devtools" "^5.64.2"
