@@ -6,6 +6,7 @@ const ChatComponent = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
+    console.log("ChatComponent mounted");
     const loadChatSdk = async () => {
       try {
         const chatSdkModule = await import("coxwave-chat-sdk");
