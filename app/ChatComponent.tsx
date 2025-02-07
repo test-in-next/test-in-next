@@ -18,7 +18,6 @@ const ChatComponent = () => {
         });
 
         await coxwaveChatSdkInstance.renderChat();
-        console.log("chatSdk initialized");
 
         setIsLoaded(true);
       } catch (error) {
