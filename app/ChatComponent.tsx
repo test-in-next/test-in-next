@@ -17,6 +17,11 @@ const ChatComponent = () => {
           apiKey: "25bd8a7d-b854-4a8e-95db-08383733efd3",
         });
 
+        coxwaveChatSdkInstance.registerShortcutKey({
+          openChat: { key: "o", modifier: "ctrlKey" },
+          sendChat: { key: "Enter", modifier: "ctrlKey" },
+        });
+
         await coxwaveChatSdkInstance.renderChat();
 
         setIsLoaded(true);
